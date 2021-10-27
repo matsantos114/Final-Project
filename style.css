@@ -1,0 +1,177 @@
+
+h1 {
+    padding-top: 30px;
+
+    text-align: center;
+}
+
+#containerpt1 {
+   
+
+    width: 100%;
+    height: 100px;
+    
+}
+#orange{
+    background-color:  rgb(236, 143, 120);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
+#title{
+    
+    border: 2px solid;
+    min-height: 75px;
+    width: auto;
+    width: 99%;
+    flex-direction: column-reverse;
+    position: fixed;
+    background-color: white;
+
+}
+
+#containerpt2 {
+    padding-top: 70px;
+    width: 100%;
+    height: 675px;
+    background-color: rgb(231, 231, 231);
+    /* flex-direction: column-reverse; */
+    margin-bottom: 275px;
+    padding-bottom: 290px;
+
+
+}
+
+#bottomcont {
+    border-color: black;
+    border-style: solid;
+    bottom: 0;
+    align-items: center;
+    display:flex;
+    position:fixed;
+    justify-content: space-between;
+    width: 99%;
+    padding-bottom: 2px;
+    height: 55px;
+    margin-bottom: 12px;
+    background-color: rgb(179, 158, 226);
+
+
+}
+#com {
+    width: 100%;
+    height: 30px;
+}
+#comment {
+    display:flex;
+
+    width: 60%;
+    
+    
+}
+
+#displayName {
+    height: 34px;
+    display:flex;
+    padding-left: 40px;
+    
+}
+
+#but {
+    height: 34px;
+    width: 100%;
+    border:none; 
+    color:rgb(236, 143, 120);
+    background-color: #ffffff;
+    cursor:pointer;
+}
+
+#button{
+
+    padding-right: 50px;
+    display:flex;
+    width: 10%;
+    margin-top: 0%;;
+
+
+}
+
+#popUp {
+    /* display: flex; */
+    
+    text-align: center;
+    flex-direction: column;
+justify-content: space-between;
+background-color: lightgray;
+
+
+}
+
+.textContainer {
+    padding: 25px;
+    border-style: solid;
+border-color: rgb(224, 224, 224);
+margin: 25px; 
+}
+
+
+
+#displayName2{
+    display: flex;
+    padding-left: 185px;
+    height: 20px;
+    padding-bottom: 40px;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+#comment2{
+    display: flex;
+    justify-content:center;
+    padding-top: 22px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    
+    
+}
+
+#textContainer2{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 12px;
+    padding: 22px;
+
+}
+
+#otherSide{
+   
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.newComment{
+    height: 28px;
+    display: flex;
+    justify-content: end;
+    padding-right: 675px;
+    margin-bottom: -30px;
+    
+    
+
+}
+.newComment2{
+    display: none;
+}
+
+#editComment{
+    display:flex;
+    width: 418px;
+
+}
+
+#submit2{
+    display:flex;
+}
+
